@@ -10,6 +10,14 @@ spring:
       connection:
         connect-timeout: 10s
         init-query-timeout: 10s
+  application:
+    name: betterreads-data-loader
+
+dataDump:
+  location:
+    author: /Users/erastus/DEV/Personal_Projects/sampleDataFolder/test-authors.txt
+    works: /Users/erastus/DEV/Personal_Projects/sampleDataFolder/test-works.txt
+
 
 
 datastax.astra:
